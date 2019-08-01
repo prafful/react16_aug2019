@@ -5,7 +5,7 @@ class ReviewActions extends React.Component {
     constructor(props){
         super(props)
         this.state = { 
-            like: parseInt(this.props.like),
+            like: parseInt(this.props.like  ),
             unlike: parseInt(this.props.unlike)
         }
 
