@@ -4,7 +4,7 @@ class ReviewTitle extends React.Component {
     state = {  }
     render() { 
         let titleStyle = {
-            color:"red",
+            color:this.props.titlecolor,
             borderBottom:"1px solid purple"
         }
         return (  
