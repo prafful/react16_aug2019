@@ -4,6 +4,7 @@ import FirstComponent from './firstcomponent';
 import ReviewComponent from './review/review';
 import Lifecycle from './lifecycle/lifecycle';
 import RemoteData from './remote/remotedata';
+import UserVote from './forms/vote';
 
 var location =  document.getElementById("container")
 var lifeLocation = document.getElementById("life")
@@ -23,6 +24,12 @@ ReactDOM.render(
    //alert(1)
 ReactDOM.render(<Lifecycle></Lifecycle>, lifeLocation)   
 
-ReactDOM.render(<RemoteData></RemoteData>, document.getElementById("remote"))
+ReactDOM.render(
+            <span>
+            <RemoteData></RemoteData>
+            <br></br>
+            <UserVote></UserVote>
+            </span>
+          , document.getElementById("remote"))
 
 

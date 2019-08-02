@@ -1,0 +1,39 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"note 10",
+            "categoryid":1,
+            "price":5000
+        },
+        {
+            "id":2,
+            "name":"mi 10",
+            "categoryid":1,
+            "price":4000
+        },
+        {
+            "id":3,
+            "name":"hui 10",
+            "categoryid":2,
+            "price":8000
+        },
+        {
+            "id":4,
+            "name":"bp 10",
+            "categoryid":2,
+            "price":7000
+        }
+    ],
+    "category":[
+        {
+            "id":1,
+            "name":"mobile"
+        },
+        {
+            "id":2,
+            "name":"handset"
+        }
+
+    ]
+}
